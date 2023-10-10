@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Instagram Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background-color: #fafafa;
+      }
+      .navbar {
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+      }
+      .navbar-brand {
+        font-weight: 600;
+      }
+      .post {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        margin: 10px;
+        border-radius: 5px;
+      }
+      .post-header {
+        padding: 10px;
+      }
+      .post-header img {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+      }
+      .post-content img {
+        width: 100%;
+      }
+      .likes-comments {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">AnuchitOOOOOOO</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Notifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <div class="post">
+            <div class="post-header">
+              <img
+                src="profile-picture.jpg"
+                alt="Profile Picture"
+                class="rounded-circle"
+              />
+              <span class="ml-3">Username</span>
+            </div>
+            <div class="post-content">
+              <img src="post-image.jpg" alt="Post Image" />
+            </div>
+            <div class="likes-comments">
+              <span class="mr-3">Likes: 100</span>
+              <span>Comments: 20</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
